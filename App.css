@@ -14,7 +14,7 @@
 }
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr)); /* creates a responsive grid */
+  grid-template-columns: repeat(auto-fill, minmax(1100px, 1fr)); /* creates a responsive grid */
   grid-gap: 15px;
   padding: 15px;
 }
@@ -28,7 +28,7 @@
 .photo-item img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 6px;
   object-fit: cover; /* Ensures the images cover the area */
 }
 .photo-item img:hover {
@@ -60,5 +60,5 @@
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 250);
 }
