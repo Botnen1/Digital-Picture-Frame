@@ -3,7 +3,10 @@ Server side code for the digital picture frame
 """
 import os
 import random
+#flask imports
 from flask import Flask, jsonify, send_from_directory, abort
+
+
 #create the flask app
 app = Flask(__name__)
 PHOTO_DIR = "YOUR PHOTO FOLDER HERE"
