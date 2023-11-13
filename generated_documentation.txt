@@ -1,0 +1,11 @@
+# All functions and variables
+
+## server.py
+
+### **variable**
+
+- app
+- PHOTO_DIR
+- photos
+- random_photos
+
